@@ -1,0 +1,141 @@
+.main-menu .active a{
+	background-color: #4767a0 !important;
+}
+
+.j-pro .j-icon-left ~ select{
+	padding-left: 58px !important;
+}
+
+.wizard > .content{
+	min-height: 50vh;
+}
+
+.table-xxs th, .table-xxs td{
+	font-size: 10px;
+}
+
+.ui-autocomplete.ui-front{
+	z-index: 9999999999999999 !important;
+}
+
+.ui-autocomplete-loading { background:url('ajax-loader.gif') no-repeat right center !important; }
+
+input#search-product.ui-autocomplete-loading{
+	 background:url('ajax-loader.gif') no-repeat right center !important;
+}
+.tick{
+	border-radius: 50%;
+	color: #fff;
+	padding: 3px;
+	width: 20px;
+	text-align: center;
+}
+
+.on-hover{
+	cursor: pointer;
+}
+
+.wrapper-loader{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	background: rgba(255,255,255,1);
+	z-index: 99999999;
+}
+
+.wizard > .content{
+	overflow: auto;
+}
+
+.select2-container .select2-selection--single{
+	height: auto !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+	background: #fff !important;
+}
+
+.printable{
+	display: none;
+}
+
+@media print{
+	.not-printable{
+		display: none;
+	}
+
+	.printable{
+		display: block;
+	}
+}
+
+.table td, .table th{
+	white-space: initial !important;
+}
+
+.btn-rounded{
+	padding-right: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    padding: 9px 15px;
+}
+
+.btn-add{
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	z-index: 9;
+	border-radius: 50%;
+}
+
+.cursor-pointer{
+	cursor: pointer;
+}
+
+.table-paddingless td{
+	padding: 0 !important;
+}
+
+.table-centered input{
+	text-align: center;
+}
+
+.v-middle{
+	vertical-align: middle !important;
+}
+
+.bg-gray{
+	background: #e9ecef;
+}
+
+.card-label{
+	position: absolute;
+	left: 0;
+	top: -20px;
+	padding: 0px 10px;
+	border-radius: 2px;
+}
+
+.pagination{
+	float: inherit;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px!important;
+}
+
+.dt-buttons{
+	margin-bottom: 10px !important; 
+}
+
+a.dt-button{
+	margin-right: 15px;
+	padding: 5px 15px;
+}
+
+.table-compact th, .table-compact td{
+	padding: 5px !important;
+}
