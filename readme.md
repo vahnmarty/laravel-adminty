@@ -2,7 +2,7 @@
 
 ### How to setup?
 
-- Clone this repo (git clone https://vahnmarty@bitbucket.org/pixzeldigital/laravel-adminty.git)
+- Clone this repo (git clone https://github.com/vahnmarty/laravel-adminty.git)
 - cd laravel-adminty
 - composer install
 - cp .env.example .env 
